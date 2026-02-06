@@ -1,4 +1,4 @@
-if DONGLE
+if CORNE_DONGLE
 
 config ZMK_KEYBOARD_NAME
 	default "nijuni"
@@ -23,7 +23,7 @@ config BT_MAX_PAIRED
 
 endif
 
-if CORNE_LEFT || CORNE_RIGHT || DONGLE
+if CORNE_LEFT || CORNE_RIGHT || CORNE_DONGLE
 
 config ZMK_SPLIT
 	default y
